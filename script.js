@@ -4,4 +4,4 @@ var HelloMessage = React.createClass({
   }
 });
 
-React.render(<HelloMessage name="John" />, document.body);
+React.render(<HelloMessage name="Sexy" />, document.body);
