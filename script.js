@@ -1,7 +1,14 @@
-var HelloMessage = React.createClass({
-  render: function() {
-    return <div>Hello {this.props.name}</div>;
-  }
+
+
+var CustomHeader = React.createClass({
+	render:function(){
+		
+		return <h1>What is your React{this.props.complete} ???</h1>;
+	}
 });
 
-React.render(<HelloMessage name="Sexy" />, document.body);
+
+React.render(<CustomHeader complete='iiion' />, document.getElementById('text') );
+
+
+
